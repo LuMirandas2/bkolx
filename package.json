@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "start": "node server.js",
-   "startdev": "nodemon server.js"
+    "start": "node server.js",
+    "startdev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "jimp": "^0.22.5",
     "mongoose": "^6.10.0",
     "uuid": "^9.0.0"
+  },
+  "dependencies": {
+    "express-validator": "^6.15.0"
   }
 }
