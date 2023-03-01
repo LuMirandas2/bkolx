@@ -62,7 +62,7 @@ module.exports = {
     }
 
     const passwordHash = await bcrypt.hash(data.password, 10);
-    const payload = (date.now() + Math.random()).toString();
+    const payload = (Date.now() + Math.random()).toString();
     const token = await bcrypt.hash(payload, 10);
 
     const newUser = new User({
