@@ -1,6 +1,6 @@
 Projeto Clone do site OLX (Estilizado)
 Desenvolvido em Node.js (versão 16.x)
-Projeto criado durante estudo de Node.js, em curso da B7Web.
+Projeto criado durante estudo de Node.js, em curso de Desenvolverdor FullStack Js
 
 O projeto consiste de um Clone estilizado do BackEnd do site de vendas OLX.
 
